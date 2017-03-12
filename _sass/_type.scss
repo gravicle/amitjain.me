@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5 {
   line-height: 1.1;
 }
 
-h1 { font-size: 2.33rem; }
+h1 { font-size: 2.1rem; line-height: 1.2; }
 h2 { font-size: 1.44rem; }
 h3 { font-size: 1.44rem; }
 
@@ -38,6 +38,10 @@ h6 { font-size: 1rem; }
 
 a {
   font-weight: $font-weight-base-bold;
+}
+
+a.site-title {
+  font-size: 22px;
 }
 
 ol,

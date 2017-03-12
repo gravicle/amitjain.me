@@ -38,7 +38,7 @@ footer {
   box-sizing: border-box; }
 
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.66;
   -webkit-font-smoothing: antialiased; }
@@ -50,7 +50,7 @@ h4,
 h5,
 nav,
 .site-header {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
   font-weight: 700; }
 
 .site-header {
@@ -60,7 +60,8 @@ h1, h2, h3, h4, h5 {
   line-height: 1.1; }
 
 h1 {
-  font-size: 2.33rem; }
+  font-size: 2.1rem;
+  line-height: 1.2; }
 
 h2 {
   font-size: 1.44rem; }
@@ -81,15 +82,18 @@ h6 {
 a {
   font-weight: 700; }
 
+a.site-title {
+  font-size: 22px; }
+
 ol,
 ul,
 p {
-  font-family: "Droid Serif", serif;
+  font-family: -apple-system, serif;
   font-size: 1rem;
   line-height: 1.66; }
 
 blockquote p {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
   font-weight: 600; }
 
 hr {
@@ -104,16 +108,16 @@ html {
 
 /* Basic styling */
 body {
-  color: #383838;
+  color: #3C454B;
   background-color: #fff; }
 
 /* Selection styling */
 ::selection {
-  background: #000;
+  background: #3C454B;
   color: #fff; }
 
 ::-moz-selection {
-  background: #000;
+  background: #3C454B;
   color: #fff; }
 
 /* Images */
@@ -142,33 +146,33 @@ li > ol {
 
 /* Links */
 a {
-  color: #000;
+  color: #3C454B;
   text-decoration: none; }
   a:hover {
-    background-color: #fec923;
+    background-color: #a866ff;
     color: #fff;
     text-decoration: none; }
   a:focus {
-    background-color: #000; }
+    background-color: #3C454B; }
 
 p a {
-  box-shadow: 0 1px 0 0 #000; }
+  box-shadow: 0 1px 0 0 #3C454B; }
   p a:hover {
     box-shadow: none; }
 
 /* Blockquotes */
 blockquote {
-  color: #383838;
+  color: #3C454B;
   font-size: 1.44rem;
   font-weight: 400;
-  border-left: 4px solid #fec923;
+  border-left: 4px solid #a866ff;
   padding-left: 1.4em;
   margin: 2em 2em 2em 1em; }
   blockquote p {
     font-size: inherit;
     font-weight: 400;
     padding: 0;
-    color: #fec923; }
+    color: #a866ff; }
 
 /* Code formatting */
 pre,
@@ -215,7 +219,7 @@ pre {
 
 .site-title {
   padding: 1px 0;
-  color: #000; }
+  color: #3C454B; }
 
 /* Nav */
 .site-nav {
@@ -242,13 +246,13 @@ pre {
     border-top: 1px solid #eeeeee; }
 
 .social-media-list {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
   list-style: none;
   margin-left: 0; }
   .social-media-list a {
     display: inline;
     margin: 0 1em 0 0;
-    box-shadow: 0 3px 0 0 #000; }
+    box-shadow: 0 3px 0 0 #3C454B; }
     .social-media-list a:hover {
       box-shadow: none; }
 
@@ -282,7 +286,7 @@ pre {
   margin: 0 0 0.5em; }
 
 .post-title {
-  color: #000; }
+  color: #3C454B; }
 
 .post-content p,
 .post-content img,
@@ -316,7 +320,7 @@ pre {
 .post-meta {
   display: block;
   margin: 5px 0 0;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
   font-size: 0.85rem;
   color: #bbb; }
 
@@ -463,7 +467,7 @@ pre {
 
 @media only screen and (max-width: 860px) {
   html {
-    font-size: 14px; }
+    font-size: 16px; }
 
   body {
     padding: 0 2em; }

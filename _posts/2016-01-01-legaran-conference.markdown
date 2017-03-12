@@ -3,7 +3,6 @@ layout: post
 title:  "Legaran Conference"
 date:   2016-01-01 13:28:59 -0500
 ---
-# United Federation of Planets
 
 Sensors indicate no shuttle or other `_ships` in this sector. According to coordinates, we have travelled 7,000 light years and are located near the system J-25.
 
