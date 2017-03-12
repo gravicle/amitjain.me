@@ -1,0 +1,14 @@
+# Site settings
+title:       Amit Jain
+author:      Amit Jain
+description: ":rocket: A responsive Jekyll theme based on my personal internet site"
+baseurl:     "" 
+url:         "https://mashlo.github.io" 
+
+# Social Links
+twitter_username: gravicle
+github_username:  gravicle
+
+# Build settings
+markdown: kramdown
+permalink: pretty
