@@ -1,3 +1,9 @@
 source 'https://rubygems.org'
 
+ruby '2.3.1'
 gem 'jekyll'
+gem 'kramdown'
+gem 'pretty'
+gem 'rack-jekyll'
+gem 'rake'
+gem 'puma'
