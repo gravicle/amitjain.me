@@ -4,8 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This customized Jekyll theme is made by [Masha Safina](http://masha.space/) for personal blogging purposes.
+## Me
 
-Theme is available for use at [Github](https://github.com/mashlo/captains-log) and has few color schemes options.
+I am an iOS engineer with a passion for UX. I mostly write about iOS, Swift, and reducing complexity in software.
 
-Placeholder copy is generated with [Star Trek Ipsum](http://vlad-saling.github.io/star-trek-ipsum/).
+## This blog
+
+This is a [Jekyll](https://jekyllrb.com) blog, hosted on [Heroku](http://heroku.com). All the code is avaialble on [Github](https://github.com/gravicle/amitjain.me). The theme is a modified version of [Masha Safina](http://masha.space/)'s [Captian's Log](https://github.com/mashlo/captains-log).

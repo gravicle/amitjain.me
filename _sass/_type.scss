@@ -37,10 +37,11 @@ h5 { font-size: 1rem; }
 h6 { font-size: 1rem; }
 
 a {
-  font-weight: $font-weight-base-bold;
+  font-weight: 500;
 }
 
 a.site-title {
+  font-weight: $font-weight-base-bold;
   font-size: 22px;
 }
 

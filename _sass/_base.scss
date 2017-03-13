@@ -72,10 +72,10 @@ a {
 }
 
 p a {
-  box-shadow: 0 1px 0 0 $brand-color-sub;
+  text-decoration: underline;
 
   &:hover {
-    box-shadow: none;
+    text-decoration: none;
   }
 }
 

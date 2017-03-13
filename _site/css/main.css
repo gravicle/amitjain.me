@@ -104,9 +104,10 @@ h6 {
   font-size: 1rem; }
 
 a {
-  font-weight: 700; }
+  font-weight: 500; }
 
 a.site-title {
+  font-weight: 700;
   font-size: 22px; }
 
 ol,
@@ -180,9 +181,9 @@ a {
     background-color: #222222; }
 
 p a {
-  box-shadow: 0 1px 0 0 #222222; }
+  text-decoration: underline; }
   p a:hover {
-    box-shadow: none; }
+    text-decoration: none; }
 
 /* Blockquotes */
 blockquote {
