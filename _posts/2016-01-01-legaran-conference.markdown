@@ -10,25 +10,22 @@ Sensors indicate no shuttle or other `_ships` in this sector. According to coord
 
 Tractor beam released, sir. Force field maintaining our hull integrity. 
 
-1. USS Enterprise - NCC-1701 - Commanded by:
-  * Robert April (2245–2250)
-  * Christopher Pike (2250–2265)
-  * James T. Kirk (2265-2270, 2271–2285)
-  * Willard Decker (2270-2271)
-2. Vessel's self-destruction carried out while in orbit of the Genesis Planet, to prevent ship from falling into Klingon hands.
+Lorem ipsum dolor sit amet, [consectetur adipiscing](http://google.com) elit. Quid turpius quam sapientis vitam ex insipientium sermone pendere? Non est igitur voluptas bonum. Conferam avum tuum Drusum cum C. Nec tamen ullo modo summum pecudis bonum et hominis idem mihi videri potest. Duo Reges: constructio interrete. Claudii libidini, qui tum erat summo ne imperio, dederetur.
 
 ### Starbase Montgomery
 
 Probes have recorded unusual levels of geological activity in all five planetary systems.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+```swift
+func directions(to: Place) -> Directions {
+  // make directions
+  return Directions(place: Place)
+}
+```
+
+{% highlight swift %}
+func directions(to: Place) -> Directions {
+  // make directions
+  return Directions(place: Place)
+}
 {% endhighlight %}
-
-This copy is generated with [Star Trek Ipsum][star-trek-ipsum].
-
-[star-trek-ipsum]: http://vlad-saling.github.io/star-trek-ipsum/

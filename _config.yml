@@ -11,6 +11,11 @@ github_username:  gravicle
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 permalink: pretty
 
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
+
+assets:
+  sources:
+    - _assets/fonts

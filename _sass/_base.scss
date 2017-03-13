@@ -101,10 +101,11 @@ blockquote {
 
 pre,
 code {
-  font-size: 0.77rem;
-  border-radius: 4px;
-  background-color: #2d2d2d;
-  color: #F8FBED;
+  font-family: $font-family-code;
+  font-size: 0.85rem;
+  border-radius: 8px;
+  background-color: #F9F9F9;
+  color: $text-color
 }
 
 code {

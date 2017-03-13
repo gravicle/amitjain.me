@@ -1,6 +1,12 @@
 // Typography
-$font-family-base: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
-$font-family-sub:  -apple-system, serif;
+@include embed-font("AvenirNextRegular", "avenir-next/avenir-next-regular");
+@include embed-font("AvenirNextBold", "avenir-next/avenir-next-bold");
+@include embed-font("AvenirNextItalic", "avenir-next/avenir-next-italic");
+@include embed-font("Fira Code Medium", "fira-code/FiraCode-Medium");
+
+$font-family-base: 'Avenir Next', -apple-system, Helvetica, Arial, sans-serif;
+$font-family-sub: 'Avenir Next', -apple-system, sans-serif;
+$font-family-code: 'Fira Code Medium', -apple-system-mono, monospace;
 
 $font-size-base:   18px;
 $line-height-base: 1.5;
@@ -18,14 +24,14 @@ $font-size-small: 0.85rem;
 $spacing-unit: 1em;
 
 // Color Scheme
-$text-color:            #3C454B;
+$text-color:            #222222;
 $text-color-light:      #bbb;
-$title-color:           #3C454B;
+$title-color:           #222222;
 
 $background-color:      #fff;
 
-$brand-color-base:      #a866ff;
-$brand-color-sub:       #3C454B;
+$brand-color-base:      #3C454B;
+$brand-color-sub:       #222222;
 
 $white-color:           #fff;
 

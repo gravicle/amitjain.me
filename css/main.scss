@@ -9,6 +9,8 @@
 * @link https://github.com/mashlo/captains-log
 */
 
+@import 'mixins';
+
 // theme variables go first
 @import 'themes/amitjain';
 
@@ -23,7 +25,7 @@
 
 @import 'page';
 @import 'post';
-@import 'syntax-highlighting';
+@import 'github-syntax-highlighting';
 
 // media queries
 @import 'media';
