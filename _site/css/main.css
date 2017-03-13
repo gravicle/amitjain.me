@@ -180,9 +180,9 @@ a {
     background-color: #222222; }
 
 p a {
-  text-decoration: underline; }
+  box-shadow: 0 1px 0 0 #222222; }
   p a:hover {
-    text-decoration: none; }
+    box-shadow: none; }
 
 /* Blockquotes */
 blockquote {
