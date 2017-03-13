@@ -1,0 +1,9 @@
+---
+title: Test
+date: 2017-03-12 18:44:24
+layout: post
+summary: 
+tags: 
+---
+
+This is a test of drafts.
